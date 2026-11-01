@@ -1,0 +1,8 @@
+node_modules
+reports
+tests
+.env
+.env.*
+.git
+Dockerfile
+.dockerignore

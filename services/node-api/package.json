@@ -1,0 +1,15 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Items API backed by PostgreSQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mkdir -p reports && node --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=reports/junit.xml \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "4.21.0",
+    "pg": "8.12.0"
+  }
+}

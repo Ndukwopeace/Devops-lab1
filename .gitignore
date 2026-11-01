@@ -1,0 +1,11 @@
+.env
+node_modules/
+.nuxt/
+.output/
+target/
+.venv/
+__pycache__/
+.pytest_cache/
+reports/
+*.pyc
+.idea/
