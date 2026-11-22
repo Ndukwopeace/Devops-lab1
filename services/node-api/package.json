@@ -9,7 +9,7 @@
     "test": "mkdir -p reports && node --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=reports/junit.xml \"tests/**/*.test.js\""
   },
   "dependencies": {
-    "express": "4.21.0",
+    "express": "4.22.3",
     "pg": "8.12.0"
   }
 }
